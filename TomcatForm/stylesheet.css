@@ -1,0 +1,105 @@
+/*DEFAULT FORMATTING*/
+#error-msg {position:absolute; top:53%; right:42%; color:red; z-index:10; }
+
+body {
+    background:url('http://i27.photobucket.com/albums/c191/KR3WSKATER32/1239545052962.jpg');
+}
+.header {
+    height:20%;
+    background: #000;
+    width:80%;
+    margin-left:10%;
+    background-position:0px -38px;
+    background-size:900px;
+}
+.main-body {
+    height:60%;
+}
+.footer {
+    height:20%;
+    width:80%;
+    margin:0px 10% 0px 10%;
+}
+.footer table {
+    width:35%;
+    background:#000;
+    padding:30px;
+    border:solid 2px #fff;
+    height:500px;
+    font:normal 22px'sans-serif';
+}
+.footer table tbody tr td {
+    padding-bottom:10px;
+}
+.left {
+    float:left;
+}
+.half {
+    width:50%;
+}
+h1 {
+    text-align:center;
+    color:#fff;
+}
+.header p {
+    text-align:center;
+}
+.white {
+    color:#fff;
+}
+
+/*DISPLAY MOVIES PAGE*/
+.no-results {font:bold 30px arial; color:red; text-align:center;}
+.proceedToCheckout input[type="submit"] {margin-left:799px; }
+.movie-elem {
+    background:#efefef;
+    padding:10px;
+    border:2px solid #000;
+    min-height:200px;
+    max-width:700px;
+    margin-left:30%;
+}
+.movie-elem a img {
+    float:left;
+    width:140px;
+    margin-right:25px;
+	height:200px; 
+}
+.movie-elem span {
+    margin-bottom:15px;
+}
+.addToCart {
+    height:40px;
+    width: 120px;
+    background:none;
+    border:none;
+}
+
+#nav-buttons {
+    margin-left:42%; 
+}
+
+#nav-buttons > form:nth-child(1), #nav-buttons > form:nth-child(2), #nav-buttons > form:nth-child(3) {
+    float:left; 
+}
+
+/*CHECKOUT PAGE*/
+.checkout-elem {background:#efefef; min-height:200px; max-width:700px; margin-left:30%; margin-bottom:15px; }
+.checkout-elem img {width:130px; margin-right:15px; padding:5px; float:left; }
+.checkout-total {font-size:24px; text-align:center; background:#efefef; width:200px; height:30px; margin-left:45%}
+
+/*FORMS*/
+.input-form {position:absolute; top:35%; right:40%; background:#000; padding:30px; border:solid #fff; }
+.input-form span {color:#fff; float:left; margin-top:5px; margin-right:10px; }
+.input-form input[type="TEXT"], .input-form input[type="password"], .input-form input[type="integer"], .input-form input[type="string"] {float:right; width:200px; }
+.input-form input[type="SUBMIT"] {margin-top:15px; float:left; }
+
+/*FOOTER*/
+#table1 {
+    float:left;
+    width:55%;
+}
+#table2 {
+    float:right;
+    width:42%;
+}

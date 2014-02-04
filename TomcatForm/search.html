@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+  <TITLE>Search</TITLE>
+  <link rel='stylesheet' href='/TomcatForm/stylesheet.css' type='text/css' media='all'>
+  <link rel="text/javascript" href="/TomcatForm/WEB-INF/myScript.js">
+<link rel="text/javascript" href="//code.jquery.com/jquery-1.10.2.min.js">
+</HEAD>
+
+<BODY BGCOLOR="#FDF5E6">
+<div class='header'><h1>FAPflix </h1><p><a href='/TomcatForm/search.html'>Search</a> <span class='white'>|</span>  <a href='/TomcatForm/servlet/logout'>Sign Out</a> <span class='white'>|</span>  <a href='/TomcatForm/servlet/Checkout'>My Cart</a> <span class='white'>|</span>  <a href='/TomcatForm/main'>Home</a> <span class='white'>|</span></p></div>
+<H1 ALIGN="CENTER">Search</H1>
+
+<FORM class="input-form" ACTION="/TomcatForm/servlet/search"
+      METHOD="POST">
+  <span>Movie Title:</span> <INPUT TYPE="STRING" NAME="title"><BR>
+  <span>Movie Year:</span> <INPUT TYPE="INTEGER" NAME="year"><BR>
+  <span>Director's Name:</span> <INPUT TYPE="STRING" NAME="director"><BR>
+  <span>Star's Name:</span> <INPUT TYPE="INTEGER" NAME="name"><BR>
+  
+  <CENTER>
+    <INPUT TYPE="SUBMIT" VALUE="Search">
+  </CENTER>
+</FORM>
+</BODY>
+</HTML>

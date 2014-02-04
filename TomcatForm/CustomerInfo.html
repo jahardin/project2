@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+  <TITLE>Search</TITLE>
+  <link rel='stylesheet' href='/TomcatForm/stylesheet.css' type='text/css' media='all'>
+  <link rel="text/javascript" href="/TomcatForm/WEB-INF/myScript.js">
+<link rel="text/javascript" href="//code.jquery.com/jquery-1.10.2.min.js">
+</HEAD>
+
+<BODY BGCOLOR="#FDF5E6">
+<div class='header'><h1>FAPflix </h1><p><a href='/TomcatForm/search.html'>Search</a> <span class='white'>|</span>  <a href='/TomcatForm/servlet/logout'>Sign Out</a> <span class='white'>|</span>  <a href='/TomcatForm/servlet/Checkout'>My Cart</a> <span class='white'>|</span>  <a href='/TomcatForm/main'>Home</a> <span class='white'>|</span> </p></div>
+<H1 ALIGN="CENTER">Enter Your Information<br/>To Place Your Order</H1>
+
+<FORM class="input-form" ACTION="/TomcatForm/servlet/CustomerInfo"
+      METHOD="POST">
+  <span>First Name:</span> <INPUT TYPE="STRING" NAME="customerFirstName"><BR>
+  <span>Last Name:</span> <INPUT TYPE="STRING" NAME="customerLastName"><BR>
+  <span>Credit Card:</span> <INPUT TYPE="INTEGER" NAME="creditCard"><BR>
+  <span>Expiration Date:</span> <INPUT TYPE="INTEGER" NAME="expiration"><BR>
+  <span>(yyyy-mm-dd)</span>
+  
+  <CENTER>
+    <INPUT TYPE="SUBMIT" VALUE="Submit Order">
+  </CENTER>
+</FORM>
+</BODY>
+</HTML>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+  Copyright 2004 The Apache Software Foundation
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+    <display-name>Test Tomcat Connection to MySQL DB</display-name>
+    <description>
+      Test Tomcat Connection to mySQL DB
+    </description>
+
+
+  <!-- Define servlets that are included in the example application -->
+
+
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>login</servlet-class>
+	</servlet>
+
+  <servlet>
+	<servlet-name>searchServlet</servlet-name>
+    <servlet-class>search</servlet-class>
+  </servlet>
+  
+    <servlet>
+	<servlet-name>showMovies</servlet-name>
+    <servlet-class>showMovies</servlet-class>
+  </servlet>
+  
+      <servlet>
+	<servlet-name>cart</servlet-name>
+    <servlet-class>cart</servlet-class>
+  </servlet>
+  
+        <servlet>
+	<servlet-name>checkout</servlet-name>
+    <servlet-class>Checkout</servlet-class>
+  </servlet>
+  
+          <servlet>
+	<servlet-name>customerInfo</servlet-name>
+    <servlet-class>CustomerInfo</servlet-class>
+  </servlet>
+  
+            <servlet>
+	<servlet-name>main</servlet-name>
+    <jsp-file>/WEB-INF/jsp/main.jsp</jsp-file>
+  </servlet>
+  
+              <servlet>
+	<servlet-name>logout</servlet-name>
+    <servlet-class>Logout</servlet-class>
+  </servlet>
+  
+                <servlet>
+	<servlet-name>singleMovie</servlet-name>
+    <servlet-class>SingleMovie</servlet-class>
+  </servlet>
+  
+                <servlet>
+	<servlet-name>singleStar</servlet-name>
+    <servlet-class>SingleStar</servlet-class>
+  </servlet>
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/login</url-pattern>
+	</servlet-mapping>
+	
+  <servlet-mapping>
+	<servlet-name>searchServlet</servlet-name>
+    <url-pattern>/servlet/search</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+	<servlet-name>showMovies</servlet-name>
+    <url-pattern>/servlet/showMovies</url-pattern>
+  </servlet-mapping>  
+  
+    <servlet-mapping>
+	<servlet-name>cart</servlet-name>
+    <url-pattern>/servlet/cart</url-pattern>
+  </servlet-mapping>  
+  
+      <servlet-mapping>
+	<servlet-name>checkout</servlet-name>
+    <url-pattern>/servlet/Checkout</url-pattern>
+  </servlet-mapping>  
+  
+        <servlet-mapping>
+	<servlet-name>customerInfo</servlet-name>
+    <url-pattern>/servlet/CustomerInfo</url-pattern>
+  </servlet-mapping>  
+  
+          <servlet-mapping>
+	<servlet-name>logout</servlet-name>
+    <url-pattern>/servlet/logout</url-pattern>
+  </servlet-mapping>  
+  
+          <servlet-mapping>
+	<servlet-name>main</servlet-name>
+    <url-pattern>/main</url-pattern>
+  </servlet-mapping>  
+  
+            <servlet-mapping>
+	<servlet-name>singleMovie</servlet-name>
+    <url-pattern>/servlet/singleMovie</url-pattern>
+  </servlet-mapping>  
+  
+            <servlet-mapping>
+	<servlet-name>singleStar</servlet-name>
+    <url-pattern>/servlet/singleStar</url-pattern>
+  </servlet-mapping>  
+
+
+</web-app>

@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Tomcat Test Form</TITLE>
+<link rel='stylesheet' href='/TomcatForm/stylesheet.css' type='text/css' media='all'>
+<link rel="text/javascript" href="/TomcatForm/WEB-INF/myScript.js">
+<link rel="text/javascript" href="//code.jquery.com/jquery-1.10.2.min.js">
+<style type="text/css" media="all">
+<!--
+h1 {color:#fff; }
+form {position:absolute; top:30%; right:40%; background:#000; padding:30px; border:solid #fff; }
+form span {color:#fff; float:left; margin-top:5px; margin-right:10px; }
+body {background: url('http://i27.photobucket.com/albums/c191/KR3WSKATER32/1239545052962.jpg'); }
+form input[type="TEXT"], form input[type="password"] {float:right; width:200px; }
+input[type="SUBMIT"] {margin-top:15px; float:left; }
+#error-msg {position:absolute; top:44%; right:42%; color:red; }
+-->
+</style>
+</HEAD>
+<BODY BGCOLOR="#FDF5E6">
+<H1 ALIGN="CENTER">Login to FAPflix</H1>
+<FORM ACTION="/TomcatForm/servlet/login" METHOD="POST">
+<span>Email:</span> <INPUT TYPE="TEXT" NAME="email"><BR>
+<span>Password:</span> <INPUT TYPE="PASSWORD" NAME="password"><BR>
+<CENTER>
+<INPUT TYPE="SUBMIT" VALUE="Log In">
+</CENTER>
+</FORM>
+</BODY>
+</HTML>
